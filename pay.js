@@ -15,6 +15,7 @@ const toQueryString = (obj) => Object.keys(obj)
 
 const md5 = (str, encoding = 'utf8') => crypto.createHash('md5').update(str, encoding).digest('hex')
 
+// 通用算法，适用于JS-SDK、收银台等模式，请参考文档配置，可适当增减参数。
 let params = {
   'body': '合同:小黄人测试',
   'attach': '合同:小黄人测试',
