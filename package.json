@@ -1,0 +1,11 @@
+{
+  "name": "payjs",
+  "version": "1.0.0",
+  "main": "pay.js",
+  "author": "yi-ge <a@wyr.me>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
